@@ -5,11 +5,7 @@ call pathogen#runtime_append_all_bundles()
 set nocompatible
 set nowritebackup
 set fileencodings=ucs-bom,utf-8,gbk,gb18030,gb2312,default,latin1
-if v:version < 703
-	set number
-else 
-	set relativenumber
-endif
+set number
 set shiftwidth=4
 set tabstop=4
 set softtabstop=4
